@@ -1,5 +1,7 @@
 #bin/bash
 ### aws configure
+sudo apt-get update
+sudo apt-get -y install awscli
 aws configure
 
 ### terraform install
